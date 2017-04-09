@@ -1,0 +1,18 @@
+    		 The most happy couples are:      
+            GIRL1 AND BOY5      
+            GIRL6 AND BOY3      
+            GIRL4 AND BOY8      
+            GIRL9 AND BOY15      
+            The most COMPATIBLE couples are:      
+            GIRL9 AND BOY15      
+            GIRL12 AND BOY13      
+            GIRL10 AND BOY7      
+            the gift exchanges are      
+            GIRL1 AND BOY5 - GIFT2      
+            GIRL6 AND BOY3 - GIFT10      
+            GIRL4 AND BOY8 - GIFT8      
+            GIRL9 AND BOY15 - GIFT5      
+            GIRL14 AND BOY11 - GIFT1      
+            GIRL14 AND BOY16 - GIFT11      
+            GIRL12 AND BOY13 - GIFT3      
+            GIRL10 AND BOY7 - GIFT7      
