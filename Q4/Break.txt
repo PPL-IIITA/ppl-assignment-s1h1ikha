@@ -1,0 +1,10 @@
+    The couples who broke up are:    
+    GIRL2 AND BOY6    
+    GIRL7 AND BOY4    
+    GIRL5 AND BOY9    
+    GIRL10 AND BOY17    
+    GIRL1 AND BOY1    
+    GIRL3 AND BOY12
+    GIRL9 AND BOY11    
+    GIRL6 AND BOY14    
+    GIRL5 AND BOY7        
