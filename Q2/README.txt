@@ -4,8 +4,8 @@ Documentation is in dist folder.
 
 TO RUN on UBUNTU:(for question 2)
 
-cd PPL
+cd Q2
 
 javac -d classes -cp src src/*/*.java
 
-java -cp classes ppl.PPL
+java -cp classes q2.Q2
