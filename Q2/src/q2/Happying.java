@@ -1,0 +1,12 @@
+package q2;
+    public class Happying {
+	String boyfriend, girlfriend;
+	double happiness;
+
+	Happying(String boyfriend, String girlfriend, double happiness) {       //constructor
+		this.boyfriend = boyfriend;
+		this.girlfriend = girlfriend;
+		this.happiness = happiness;
+	}
+}
+
