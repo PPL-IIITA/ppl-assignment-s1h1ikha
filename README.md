@@ -11,7 +11,7 @@ Documentation is in dist folder.
 
 TO RUN on UBUNTU:  
 
-THE COMMAND TO RUN THE CODE IS IN THE RESPECTIVE FOLDER
+THE COMMAND IS IN THE README.txt IN THE RESPECTIVE FOLDER
 
 Tested on netbeans IDE on windows 8.1
 
