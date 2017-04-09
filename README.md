@@ -3,13 +3,17 @@ ppl-assignment-s1h1ikha created by GitHub Classroom
 
 SHIKHA SINGH
 RIT2015043
+
 Class diagram in respective folders
+
 Documentation is in dist folder.
+
+
 TO RUN on UBUNTU:(for question 1)
 
 cd PPL
 
-javac -d classes -cp src src/*/*.java 
+javac -d classes -cp src src/*/*.java
 
 java -cp classes ppl.PPL                
 
