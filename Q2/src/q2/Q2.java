@@ -92,7 +92,7 @@ public class Q2 {
         Gifting gg =new Gifting();
         gg.Create_Relation(boys , girls ,happy_array);
     
-           /* for (int i=1; i<totalGirls; i++) {
+            for (int i=1; i<totalGirls; i++) {
                 String k =  happy_array[i].boyfriend;
 			for (int j=i-1; j>=0; j--) {
                             happy_array[j+1].boyfriend = k;
@@ -109,9 +109,9 @@ public class Q2 {
 			for (int j=i-1; j>=0; j--) {
                             happy_array[j+1].happiness = k;
                         }
-            }*/
+            }
            //sorting the array as per the happiness of the couples
-           double[] t =new double[20];
+         /*  double[] t =new double[20];
            String[][] t1 =new String[20][20];
            for(int i=0;i<totalGirls-1;i++){
 		int min=i;
@@ -130,7 +130,7 @@ public class Q2 {
 			happy_array[i].girlfriend =happy_array[min].girlfriend;     //sorting girlfriend
 			happy_array[min].girlfriend=t1[1][i];
 		}
-	}
+	}*/
         
 		//finding the k most happiest couples
                 //here k =5
