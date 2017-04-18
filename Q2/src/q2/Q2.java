@@ -111,7 +111,7 @@ public class Q2 {
                         }
             }
            //sorting the array as per the happiness of the couples
-         /*  double[] t =new double[20];
+           double[] t =new double[20];
            String[][] t1 =new String[20][20];
            for(int i=0;i<totalGirls-1;i++){
 		int min=i;
@@ -130,7 +130,7 @@ public class Q2 {
 			happy_array[i].girlfriend =happy_array[min].girlfriend;     //sorting girlfriend
 			happy_array[min].girlfriend=t1[1][i];
 		}
-	}*/
+	}
         
 		//finding the k most happiest couples
                 //here k =5
