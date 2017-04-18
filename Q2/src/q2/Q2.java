@@ -149,5 +149,7 @@ public class Q2 {
     
    // Create_Relation.Create_Relation(boys , girls , totalBoys , totalGirls);
    // Create_Relation.Create_Relation1(boys , girls , gifts);
+	    Create_Relation cr = new Create_Relation();
+           cr.Create_Relation(boys , girls , totalBoys , totalGirls);
     }
     }
