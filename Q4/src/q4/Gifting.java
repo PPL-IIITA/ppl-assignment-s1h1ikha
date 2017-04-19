@@ -57,9 +57,9 @@ public class Gifting {
                                         if (gg.type == 1)                       //normal
                                             gg.happiness = boy.b_budget;
                                         else if (gg.type == 2)                   //choosy
-                                            gg.happiness = Math.log(sum_cost);
+                                            gg.happiness = Math.log(boy.b_budget/sum_cost);
                                         else                                     //desperate
-                                            gg.happiness = Math.exp(sum_cost);
+                                            gg.happiness = Math.exp(boy.b_budget/sum_cost);
                                         
                                     }
                                 }
