@@ -92,7 +92,7 @@ public class Q3 {
         Gifting gg =new Gifting();
         gg.Create_Relation(boys , girls ,happy_array);
     
-           /* for (int i=1; i<totalGirls; i++) {
+           for (int i=1; i<totalGirls; i++) {
                 String k =  happy_array[i].boyfriend;
 			for (int j=i-1; j>=0; j--) {
                             happy_array[j+1].boyfriend = k;
@@ -109,7 +109,7 @@ public class Q3 {
 			for (int j=i-1; j>=0; j--) {
                             happy_array[j+1].happiness = k;
                         }
-            }*/
+            }
            //sorting the array as per the happiness of the couples
            double[] t =new double[20];
            String[][] t1 =new String[20][20];
@@ -158,5 +158,32 @@ public class Q3 {
     g5.happiness(boys, girls, happy_array);
     GenerousBoy g6 =new GenerousBoy(s);
     g6.happiness(boys, girls, happy_array);
+     if(totalBoys > 20){
+       try{
+           throw new NoBoy("girls");
+       }
+   
+   catch(NoBoy ex){
+           System.out.println("girl did nott get a boyfreind");
+           ex.printStackTrace();
+           }
+   }
+   if(totalGirls >15)
+   {
+       try{
+           throw new NoGirl("boys");
+       }
+   catch(NoGirl ex){
+           System.out.println("boy did nott get a girlfreind");
+           ex.printStackTrace();
+           }
+   }
+   try{
+           throw new NoMoney("money");
+       }
+    catch(NoMoney ex){
+           System.out.println("boy has no money");
+           ex.printStackTrace();
+           }
     }
     }
