@@ -2,7 +2,7 @@ Class diagram in respective folders
 
 Documentation is in dist folder.
 
-TO RUN on UBUNTU:(for question 2)
+TO RUN on UBUNTU:(for question 8)
 
 cd Q8
 
