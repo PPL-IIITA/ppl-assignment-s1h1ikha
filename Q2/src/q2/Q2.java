@@ -16,7 +16,7 @@ import java.util.Comparator;
 
 
 public class Q2 {
-    public static void main(String[] args) {
+    public static void main(String[] args)throws IOException,NoMoney,NoGirl,NoBoy {
         System.out.println("The most happy couples are:\n");
         System.out.println("GIRL1 AND BOY5\n");
         System.out.println("GIRL6 AND BOY3\n");
@@ -149,7 +149,35 @@ public class Q2 {
     
    // Create_Relation.Create_Relation(boys , girls , totalBoys , totalGirls);
    // Create_Relation.Create_Relation1(boys , girls , gifts);
-	    Create_Relation cr = new Create_Relation();
+   Create_Relation cr = new Create_Relation();
            cr.Create_Relation(boys , girls , totalBoys , totalGirls);
+   if(totalBoys > 20){
+       try{
+           throw new NoBoy("girls");
+       }
+   
+   catch(NoBoy ex){
+           System.out.println("girl did nott get a boyfreind");
+           ex.printStackTrace();
+           }
+   }
+   if(totalGirls >15)
+   {
+       try{
+           throw new NoGirl("boys");
+       }
+   catch(NoGirl ex){
+           System.out.println("boy did nott get a girlfreind");
+           ex.printStackTrace();
+           }
+   }
+   try{
+           throw new NoMoney("money");
+       }
+    catch(NoMoney ex){
+           System.out.println("boy has no money");
+           ex.printStackTrace();
+           }
+    
     }
     }

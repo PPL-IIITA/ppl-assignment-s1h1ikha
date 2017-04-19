@@ -38,8 +38,8 @@ public class Gifting {
                                     }catch (IOException ioe) {  
                                         ioe.printStackTrace();
                                     }
-                                     //Create_Relation cr = new Create_Relation();
-                                     //cr.Create_Relation(boys , girls , 20 , 10);
+                                     Create_Relation cr = new Create_Relation();
+                                     cr.Create_Relation(boys , girls , 20 , 10);
                                   
 				}
                                // Create_Relation.Create_Relation(boys, girls, 20, 15);
