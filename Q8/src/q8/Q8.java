@@ -159,5 +159,32 @@ public class Q8 {
    // Create_Relation.Create_Relation(boys , girls , totalBoys , totalGirls);
    // Create_Relation.Create_Relation1(boys , girls , gifts);
     }
+     if(totalBoys > 20){
+       try{
+           throw new NoBoy("girls");
+       }
+   
+   catch(NoBoy ex){
+           System.out.println("girl did nott get a boyfreind");
+           ex.printStackTrace();
+           }
+   }
+   if(totalGirls >15)
+   {
+       try{
+           throw new NoGirl("boys");
+       }
+   catch(NoGirl ex){
+           System.out.println("boy did nott get a girlfreind");
+           ex.printStackTrace();
+           }
+   }
+   try{
+           throw new NoMoney("money");
+       }
+    catch(NoMoney ex){
+           System.out.println("boy has no money");
+           ex.printStackTrace();
+           }
     }
 }
